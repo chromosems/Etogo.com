@@ -22,7 +22,7 @@
         </div>
         <hr>
         <h2>Drop image Here</h2>
-        <form action="/{{$flyer->zip}}/{{$flyer->street}}/photos" method="POST" class="dropzone">
+        <form id="addPhotosForm" action="/{{$flyer->zip}}/{{$flyer->street}}/photos" method="POST" class="dropzone">
             @csrf
         </form>
 
@@ -31,5 +31,15 @@
 
 @section('scripts.footer')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/dropzone.js"></script>
+
+    <script>
+        /**
+         * file name validation on submiting usintg the form*/
+        Dropzone.options.addPhotosForm = {
+            paraName: 'photo',
+            maxFilesize: 3,
+            acceptedFiles: '.jpg, .jpeg, .png, .bmp'
+        }
+    </script>
 
 @endsection

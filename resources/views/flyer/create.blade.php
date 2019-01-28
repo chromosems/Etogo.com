@@ -64,10 +64,10 @@
                             <div class="form-group">
                                 <label>Description</label>
                                 <textarea type="text" name="description" id="description" class="form-control"
-                                          row="100"></textarea>
+                                          rows="20" cols="50" ;></textarea>
                             </div>
                             <button type="submit " class="btn btn-primary">Submit</button>
-
+                            <br>
                         </div>
                     </div>
                 </form>

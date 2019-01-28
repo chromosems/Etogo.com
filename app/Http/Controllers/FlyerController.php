@@ -9,6 +9,14 @@ use App\Flyer;
 
 class FlyerController extends Controller
 {
+    /*
+     * Authenticatin for user.that means before selling your house  A user must register by creating an account
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -52,7 +60,6 @@ class FlyerController extends Controller
         $flyer = Flyer::locatedAt($zip, $street)->first();
         return view('flyer.show', compact('flyer'));
     }
-
 
 
     public function addPhoto($zip, $street, Request $request)
