@@ -5,16 +5,17 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Flyer;
+use App\Photo;
 
 
 class FlyerController extends Controller
 {
     /*
-     * Authenticatin for user.that means before selling your house  A user must register by creating an account
+     * Authentication for user.that means before selling your house  A user must register by creating an account
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware('auth', ['except' => ['show']]);
     }
 
     /**
@@ -46,7 +47,7 @@ class FlyerController extends Controller
     public function store(Requests\FlyerRequest $request)
     {
         Flyer::create($request->all());
-        return redirect('flyer/create')->with('success', 'A new flyer has been created');
+        return redirect('flyer/create')->with('success', 'A new images has been created');
     }
 
     /**
@@ -57,20 +58,23 @@ class FlyerController extends Controller
      */
     public function show($zip, $street)
     {
-        $flyer = Flyer::locatedAt($zip, $street)->first();
+        $flyer = Flyer::locatedAt($zip, $street);
         return view('flyer.show', compact('flyer'));
     }
 
 
     public function addPhoto($zip, $street, Request $request)
     {
-        $file = $request->file('file');
-        $name = time() . $file->getClientOriginalName();
-        $file->move('flyer/photos', $name);
-        $flyer = Flyer::locatedAt($zip, $street)->first();
-        $flyer->photos()->create(['path' => "/flyer/photos/{$name}"]);
+        $this->validate($request, [
+            'photo' => 'required|mine: jpg,jpeg,png,bmp'
+        ]);
+        $flyer = Flyer::locatedAt($zip, $street);
 
+        $photo = Photo::saveAs($request->file('photo'));
+
+        $flyer->addPhoto($photo);
     }
+//
 
     /**
      * Show the form for editing the specified resource.

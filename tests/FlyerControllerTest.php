@@ -14,6 +14,6 @@ class FlyerControllerTest extends TestCase
      */
     public function it_shows_the_form_to_create_a_new_flyer()
     {
-        $this->assertTrue('flyer/create');
+        $this->assertTrue('images/create');
     }
 }

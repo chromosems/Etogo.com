@@ -43,7 +43,7 @@
                     </li>
 
                     <li class="nav-item">
-{{--                        <a class="nav-link" href="{{route('')}}"--}}
+                        {{--                        <a class="nav-link" href="{{route('')}}"--}}
                     </li>
                 </ul>
 

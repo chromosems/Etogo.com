@@ -15,15 +15,20 @@ class Flyer extends Model
         'price',
         'description'
     ];
+    /*
+     * Find the images at a given address
+     */
 
-    public function scopeLocatedAt($query, $zip, $street)
+    public static function LocatedAt( $zip, $street)
     {
         $street = str_replace('-', '', $street);
-        return $query->where(compact('zip', 'street'));
+        return static::where(compact('zip', 'street'))->first();
 
     }
-
-
+    public function addPhoto(Photo $photo)
+    {
+        return $this->photos()->save($photo);
+    }
 
     public function photos()
     {

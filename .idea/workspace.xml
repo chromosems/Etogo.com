@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e1b9d3-d6f0-4b02-9232-1ff2d8519112" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/projectflyer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projectflyer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Flyer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Flyer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/FlyerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/FlyerController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/flyer/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/flyer/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548452221download.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548454135download (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548454619download (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548454895download (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548454937download (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548458180download (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548622792download.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548623127download (6).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548624557download (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548624752download (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548624774download.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548624792download (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548624805download (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548625890download (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548667083download (5).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/flyer/photos/1548667139download (7).jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/flyer/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/flyer/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/FlyerControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/FlyerControllerTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,24 +93,26 @@
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.78" value="2" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="22" />
-          <entry key="php" value="6067" />
+          <entry key="php" value="8447" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="22" />
-          <entry key="Blade" value="2949" />
-          <entry key="PHP" value="3118" />
+          <entry key="Blade" value="2994" />
+          <entry key="PHP" value="5453" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -97,9 +122,10 @@
           <entry key="env" value="3" />
           <entry key="flyers" value="1" />
           <entry key="jpeg" value="15" />
+          <entry key="jpg" value="1" />
           <entry key="migrations" value="1" />
           <entry key="photos" value="1" />
-          <entry key="php" value="44" />
+          <entry key="php" value="49" />
           <entry key="sql" value="2" />
           <entry key="table_photos" value="1" />
         </counts>
@@ -107,10 +133,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="3" />
-          <entry key="Blade" value="15" />
+          <entry key="Blade" value="17" />
           <entry key="Database Element" value="4" />
-          <entry key="Image" value="15" />
-          <entry key="PHP" value="29" />
+          <entry key="Image" value="16" />
+          <entry key="PHP" value="32" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="2" />
         </counts>
@@ -120,19 +146,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Flyer.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FlyerController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Photo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="52" />
+              <folding>
+                <element signature="e#23#62#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Photo.php">
+        <entry file="file://$PROJECT_DIR$/app/Flyer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="611">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -140,8 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="299">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -149,8 +190,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/flyer/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+            <state relative-caret-position="854">
+              <caret line="58" column="57" lean-forward="true" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -158,29 +199,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/flyer/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="37" column="78" lean-forward="true" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FlyerController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="67" column="56" lean-forward="true" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="575">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -204,13 +224,14 @@
         <option value="$PROJECT_DIR$/tests/FlyerControllerTest.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_25_163827_create_photos_table.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/resources/views/flyer/show.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/flyer/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Photo.php" />
         <option value="$PROJECT_DIR$/app/Flyer.php" />
-        <option value="$PROJECT_DIR$/resources/views/flyer/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FlyerController.php" />
+        <option value="$PROJECT_DIR$/app/Photo.php" />
       </list>
     </option>
   </component>
@@ -221,6 +242,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -317,12 +341,13 @@
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
     <option name="width" value="960" />
-    <option name="height" value="1080" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -341,50 +366,13 @@
             <path>
               <item name="projectflyer" type="b2602c69:ProjectViewProjectNode" />
               <item name="projectflyer" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectflyer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectflyer" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectflyer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectflyer" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="countries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectflyer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectflyer" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Requests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectflyer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectflyer" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectflyer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectflyer" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectflyer" type="b2602c69:ProjectViewProjectNode" />
               <item name="projectflyer" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="flyer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectflyer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectflyer" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="flyer" type="462c0819:PsiDirectoryNode" />
-              <item name="photos" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectflyer" type="b2602c69:ProjectViewProjectNode" />
@@ -403,13 +391,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="flyer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectflyer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectflyer" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectflyer" type="b2602c69:ProjectViewProjectNode" />
@@ -429,7 +410,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -458,23 +439,26 @@
       <workItem from="1548456724848" duration="1644000" />
       <workItem from="1548622129268" duration="1712000" />
       <workItem from="1548623888818" duration="4942000" />
-      <workItem from="1548659820510" duration="9425000" />
+      <workItem from="1548659820510" duration="13624000" />
+      <workItem from="1548675669205" duration="3164000" />
+      <workItem from="1548738618716" duration="5207000" />
+      <workItem from="1548744952104" duration="14623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44232000" />
+    <option name="totallyTimeSpent" value="71425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1080" extended-state="4" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16458334" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29322916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -482,7 +466,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32963374" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32777232" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32696176" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.32937366" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -497,17 +481,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Http/Controllers/FlyerController.php</url>
-          <line>64</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
@@ -578,19 +551,19 @@
     <entry file="file://$PROJECT_DIR$/public/flyer/photos/1548452880download.jpeg" />
     <entry file="file://$PROJECT_DIR$/public/flyer/photos/1548452821download.jpeg" />
     <entry file="file://$PROJECT_DIR$/public/flyer/photos/1548452801download (2).jpeg" />
-    <entry file="file://$PROJECT_DIR$/public/flyer/photos/1548454135download (1).jpeg">
+    <entry file="file://$PROJECT_DIR$/public/images/photos/1548454135download (1).jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/flyer/photos/1548458180download (4).jpeg">
+    <entry file="file://$PROJECT_DIR$/public/images/photos/1548458180download (4).jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/flyer/photos/1548454937download (2).jpeg">
+    <entry file="file://$PROJECT_DIR$/public/images/photos/1548454937download (2).jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/flyer/photos/1548454895download (1).jpeg">
+    <entry file="file://$PROJECT_DIR$/public/images/photos/1548454895download (1).jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/flyer/photos/1548454619download (1).jpeg">
+    <entry file="file://$PROJECT_DIR$/public/images/photos/1548454619download (1).jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_25_163807_create_flyers_table.php">
@@ -600,10 +573,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/flyer/photos/1548452221download.jpeg">
+    <entry file="file://$PROJECT_DIR$/public/images/photos/1548452221download.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/flyer/photos/1548623127download (6).jpeg">
+    <entry file="file://$PROJECT_DIR$/public/images/photos/1548623127download (6).jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_25_163827_create_photos_table.php">
@@ -614,6 +587,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php" />
+    <entry file="file://$PROJECT_DIR$/public/flyer/photos/1548677990wp2685757.jpg" />
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="179" column="6" lean-forward="true" selection-start-line="179" selection-start-column="6" selection-end-line="179" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
@@ -621,54 +602,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Flyer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="37" column="78" lean-forward="true" selection-start-line="37" selection-start-column="78" selection-end-line="37" selection-end-column="78" />
+        <state relative-caret-position="570">
+          <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/flyer/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="575">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/flyer/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+        <state relative-caret-position="854">
+          <caret line="58" column="57" lean-forward="true" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="299">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Flyer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FlyerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="67" column="56" lean-forward="true" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
+        <state relative-caret-position="287">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

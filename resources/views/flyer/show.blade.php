@@ -11,7 +11,7 @@
                         <h2>${{!! number_format( $flyer->price)}}</h2>
                         {{$flyer->description}}
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-sm-8">
                         @foreach ($flyer->photos as $photo)
                             <img src="{{$photo->path}}" alt="">
                         @endforeach
